@@ -11,7 +11,7 @@ This version is a Node.js module, which allows it to be used in conjunction with
 
 With that said, I do plan on eventually creating a UI for this module for easier access.
 ## What is currently missing?
-The only thing missing from this module compared to YTP+ is the Squidward effect. I plan to add it eventually, but not at this time.
+~~The only thing missing from this module compared to YTP+ is the Squidward effect. I plan to add it eventually, but not at this time.~~ I "enabled" it, and it seems to work
 ## License?
 According to the original creator of the YTP+ software, the code is FOSS (Free Open Source Software) and therefore this port is as well. You are free to do whatever you'd like with the source code or the software, even sell it if you'd like.
 ## How to get started
@@ -68,6 +68,7 @@ Documentation on the configureAndGo function:
  * @param {string} options.sources Directory that should contain different YTP source clips that will keep their length unspliced and will be added at random. Default is ./sources
  * @param {string} options.sounds Directory that should contain different audio files for the random sound effects' sounds. Default is ./sounds
  * @param {string} options.music Directory that should contain different audio files for the dance effect's music. Default is ./music
+ * @param {string} options.resources Directory that should contain different resources. Default is ./resources
  * @param {boolean} options.transitions Whether or not to add transition clips, in the "sources" directory set. Default is false.
  * @param {string} options.OUTPUT_FILE The output destination of the completed YTP. Default is ./done.mp4
  * @param {float} options.MAX_STREAM_DURATION The maximum duration of a single clip. Default is 0.2.
