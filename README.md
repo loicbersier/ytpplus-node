@@ -68,6 +68,7 @@ Documentation on the configureAndGo function:
  * @param {string} options.sources Directory that should contain different YTP source clips that will keep their length unspliced and will be added at random. Default is ./sources
  * @param {string} options.sounds Directory that should contain different audio files for the random sound effects' sounds. Default is ./sounds
  * @param {string} options.music Directory that should contain different audio files for the dance effect's music. Default is ./music
+ * @param {string} options.resources Directory that should contain different resources. Default is ./resources
  * @param {boolean} options.transitions Whether or not to add transition clips, in the "sources" directory set. Default is false.
  * @param {string} options.OUTPUT_FILE The output destination of the completed YTP. Default is ./done.mp4
  * @param {float} options.MAX_STREAM_DURATION The maximum duration of a single clip. Default is 0.2.
