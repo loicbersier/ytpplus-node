@@ -11,7 +11,7 @@ This version is a Node.js module, which allows it to be used in conjunction with
 
 With that said, I do plan on eventually creating a UI for this module for easier access.
 ## What is currently missing?
-The only thing missing from this module compared to YTP+ is the Squidward effect. I plan to add it eventually, but not at this time.
+~~The only thing missing from this module compared to YTP+ is the Squidward effect. I plan to add it eventually, but not at this time.~~ I "enabled" it, and it seems to work
 ## License?
 According to the original creator of the YTP+ software, the code is FOSS (Free Open Source Software) and therefore this port is as well. You are free to do whatever you'd like with the source code or the software, even sell it if you'd like.
 ## How to get started
