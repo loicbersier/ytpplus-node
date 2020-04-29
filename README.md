@@ -5,7 +5,7 @@ It is possible to set the effect "range" (0-11, 0 being no effect) during creati
 
 Alongside that, no output is made to console (other than possible errors) allowing for completely no output from using this module.
 
-An added bonus of this module is being able to set the output resoluton and add an outro to the end of the output, which is not possible with the java eequivalent.
+An added bonus of this module is being able to set the output resoluton and add an outro to the end of the output and intro at the start, which is not possible with the java eequivalent.
 ## Why use this version instead of the UI based one?
 This version is a Node.js module, which allows it to be used in conjunction with other applications. There are also new features added to this version that were not originally added to the java one.
 
@@ -86,6 +86,7 @@ Documentation on the configureAndGo function:
          * @param {number} options.resolution[0] Width of the output video. Default is 640.
          * @param {number} options.resolution[1] Height of the output video. Default is 480.
          * @param {array} options.outro A new implementation in ytpplus-node, allows you to set an outro video file (*.mp4) to play at the very end of the YTP. Default is null, however you can easily set it to the included outro.mp4 in resources.
+         * @param {array} options.intro A new implementation in ytpplus-node, allows you to set an intro video file (*.mp4) to play at the start of the YTP. Default is null.
          * @param {Object} options.effects An object that contains different booleans for the effects to add. Every effect defaults to false.
          * @param {boolean} options.showFileNames Show file name on top left corner of the video
          * @param {boolean} options.effects.effect_RandomSound Adds a random sound effect to either the source material or a transition clip.
